@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #21265b;
+}
+
+.topnav a {
+  float: left;
+  color: #8451ca;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #212656b;
+  color: white;
+}
+</style>
+
+
+
+<style>
+
+    body {
+        background-color: rgb(230, 217, 243);
+        color: rgba(170, 24, 39, 0.751);
+    }
+
+</style>
+
+<style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .cart-icon {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 24px;
+            color: #333;
+            cursor: pointer;
+        }
+        .checkout-container {
+            width: 600px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+        .checkout-container h2 {
+            color: #333;
+        }
+        .item {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .item img {
+            max-width: 100px;
+            max-height: 100px;
+            border-radius: 5px;
+        }
+        .item-details {
+            flex: 1;
+            margin-left: 20px;
+            text-align: left;
+        }
+        .item-details h3 {
+            margin: 0;
+            color: #333;
+        }
+        .item-price {
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .total-price {
+            font-size: 24px;
+            text-align: right;
+            margin-top: 20px;
+        }
+        .checkout-button {
+            background: #333;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        .checkout-button:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+  <div class="topnav">
+    <a href="Home Page.html"> Home page</a>
+      <a href="shop.html">Shop</a>
+      <a href="contact.html">Contact</a>
+      <a href="store.html">Store</a>
+    
+    </div>
+    
+    <i class="fas fa-shopping-cart cart-icon"></i>
+    <div class="checkout-container">
+        <h2>Checkout</h2>
+        <div class="item">
+            <img src="product1.jpg" alt="Product 1">
+            <div class="item-details">
+                <h3>Product 1</h3>
+                <p>Product description goes here.</p>
+            </div>
+            <div class="item-price">$19.99</div>
+        </div>
+        <div class="item">
+            <img src="product2.jpg" alt="Product 2">
+            <div class="item-details">
+                <h3>Product 2</h3>
+                <p>Product description goes here.</p>
+            </div>
+            <div class="item-price">$24.99</div>
+        </div>
+        <div class="total-price">Total: $44.98</div>
+        <button class="checkout-button">Proceed to Checkout</button>
+    </div>
+</body>
+</html>

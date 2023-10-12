@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+<style>
+    body {
+        background-color: rgb(230, 217, 243);
+        color: rgba(170, 24, 39, 0.751);
+    }
+</style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #21265b;
+}
+
+.topnav a {
+  float: left;
+  color: #8451ca;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color : #212656b;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+    <div class="topnav">
+      <a href="Home Page.html"> Home page</a>
+      <a href="Menu.html">Menu </a>
+      
+      <div class="dropdown">
+
+ <a href="Store.html">Store</a>
+<div class="dropdown-content">
+        <a href="login page.html">Login</a>
+        <a href="Contact.html"> Contact</a>
+        <a href="Menu.html"> Menu</a>
+      </div>  
+        
+      </div>
+    </div>
+
+  
+      <style>
+          body {
+              font-family: Roboto, sans-serif;
+              background-color: #f4f4f4;
+              margin: 0;
+              padding: 0;
+          }
+          .contact-container {
+              width: 600px;
+              margin: 0 auto;
+              margin-top: 50px;
+              background: #fff;
+              padding: 20px;
+              border-radius: 5px;
+              box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+          }
+          .contact-container h2 {
+              text-align: center;
+          }
+          .form-group {
+              margin-top: 20px;
+          }
+          .form-group label {
+              display: block;
+              font-weight: bold;
+          }
+          .form-group input[type="text"],
+          .form-group input[type="email"],
+          .form-group textarea {
+              width: 100%;
+              padding: 10px;
+              margin-top: 5px;
+              margin-bottom: 10px;
+              border: 1px solid #ccc;
+              border-radius: 3px;
+          }
+          .form-group textarea {
+              resize: vertical;
+          }
+          .form-group input[type="submit"] {
+              background: #333;
+              color: #fff;
+              padding: 10px 20px;
+              border: none;
+              border-radius: 3px;
+              cursor: pointer;
+          }
+      </style>
+  
+      <div class="contact-container">
+          <h2>Contact Us</h2>
+          <form action="contact_process.php" method="post">
+              <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" name="name" id="name" required>
+              </div>
+              <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" name="email" id="email" required>
+              </div>
+              <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea name="message" id="message" rows="4" required></textarea>
+              </div>
+              <div class="form-group">
+                  <input type="submit" value="Submit">
+              </div>
+          </form>
+      </div>
+  </body>
+  </html>
+  
