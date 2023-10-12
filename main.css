@@ -1,0 +1,60 @@
+p { 
+    margin: ptx;
+    padding: 0;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+.Menu { 
+padding: 2rem;
+background-color; erff;
+position: relative:
+width: calc(130ps +4" 7Opx
+4rem);
+display: flex;
+Justify-content: center;
+border-radius: 20px 20px;
+box-shadow: ; 25px a rgba(0, 0, 9, 0.075)
+
+}
+
+.link { }
+position: absolute;
+Z-index; -1:
+content: "":
+display: block;
+border-radius: 99en;
+width: 190s;
+height: 100T;
+top: 0:
+transforn: translatex(i0n);
+transition: transform 9,2s ease-in:
+transform-origin: center right;
+background-color: aeee;
+
+.linkf
+display: inline-flex;
+Justify-content: center;
+align-iteas: center;
+width: 70ps;
+height: 50px;
+border-radius: 9es;
+position: relative:
+z-index: 1;
+overflom: hicden:
+transform-origin: center Left;
+transition: midth 8.7s ease-in:
+text-decoration; none:
+color: inherit;
+}
+
+.Link:hover, .Link:focus { 
+outline: 8px;
+width: 138px;
+}
+.link:hover:before,
+.Link;hover .link-title,
+.Link:focus
+ .link:focus:before,
+.Link:focus .link-title (
+transform: translatax(0);
+opocity: 1:
+
