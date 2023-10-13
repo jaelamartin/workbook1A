@@ -6,6 +6,15 @@
 </head>
 <style>
 
+
+<body>
+
+
+</div>   
+
+<body>
+
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -36,7 +45,7 @@ body {
   color: white;
 }
 </style>
-
+<body>
 
 
 <style>
@@ -122,15 +131,76 @@ body {
         }
     </style>
 </head>
-<body>
+
   <div class="topnav">
     <a href="Home Page.html"> Home page</a>
-      <a href="shop.html">Shop</a>
       <a href="contact.html">Contact</a>
-      <a href="store.html">Store</a>
-    
+      <div class="dropdown">
+        <a href="Store.html"> Store</a>
+      <button class="dropbtn">  </button>
+      <div class="dropdown-content">
+        <a href="login page.html">Login</a>
+        <a href="Contact.html"> Contact</a>
+      </div>  
+        
+   
+      
+  <style>
+      
+        .dropdown-content {
+        align-self: baseline;: 0;
+      }
+        /* Style The Dropdown Button */
+        .dropbtn {
+          background-color: #21265b;
+          color: #8451ca;
+          padding: 16px;
+          font-size: 16px;
+          border: none;
+          cursor: pointer;
+        }
+        
+        /* The container <div> - needed to position the dropdown content */
+        .dropdown {
+          position: right;
+          display: inline-block;
+          .dropdown-content 
+        : 0;
+        }
+        
+        /* Dropdown Content (Hidden by Default) */
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f8f1f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba 8451ca;
+          z-index: 1;
+        }
+        
+        /* Links inside the dropdown */
+        .dropdown-content a {
+          color: 8451ca;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {background-color: #cf66f6}
+        
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+        
+        /* Change the background color of the dropdown button when the dropdown content is shown */
+        .dropdown:hover .dropbtn {
+          background-color: #4b3e8e;
+        }
+    </style>
     </div>
-    
+        <div> 
     <i class="fas fa-shopping-cart cart-icon"></i>
     <div class="checkout-container">
         <h2>Checkout</h2>
@@ -153,5 +223,6 @@ body {
         <div class="total-price">Total: $44.98</div>
         <button class="checkout-button">Proceed to Checkout</button>
     </div>
+</div>
 </body>
 </html>
